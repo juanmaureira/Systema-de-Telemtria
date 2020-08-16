@@ -1,0 +1,46 @@
+[PROJECT]
+Target=rs232_ext.HEX
+Development_Mode=2
+Processor=0x4520
+Processor_Text=PIC18F4520
+ToolSuite=CCS
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=rs232_ext.c
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+
+[rs232_ext.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=RS232_~1.C
+
+[Windows]
+0=0000 RS232_~1.C 0 0 796 451 3 0
+
+[Units]
+Count=1
+1=rs232_ext.c (main)
+
+[fileformats]
+forcecoff=0
+
+[ProjectLog]
+Days=1
+D1=20-09-2018
+D1_L=2
+D1_L1=[44278]Project Opened.
+D1_L2=[44283]Project Closed.
